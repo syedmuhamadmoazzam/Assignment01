@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .services{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 4rem;
+            padding: 50px 50px;
+            background-color: #000;;
+        }
+        .card{
+            padding: 40px 30px;
+            background-color: #fff;
+            box-shadow: rgba(100, 100, 111, 0.2) 6px 7px 29px 0px;
+        }
+        .card .icon{
+            background-color:yellow;
+            width: fit-content;
+            padding: 10px;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        .card .icon img{
+            width: 30px;
+        }
+        .card h1{
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .card p{
+            font-size: 17px;
+            line-height: 25px;
+            margin-bottom: 10px;
+        }
+        .services .card button{
+            background-color: #000;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        } 
+        @media (max-width:1380px) {
+            .services{
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width:780px) {
+            .services{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width:480px) {
+            .services{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+           
+        
+        
+        </style>
+</head>
+<body>
+    <section class="services">
+        <div class="card">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/1721/1721930.png">
+            </div>
+            <h1>lorem</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, amet placeat sunt laudantium dolorum ratione excepturi voluptate fuga sapiente aliquam vero deleniti unde pariatur molestiae optio aliquid quis sequi quod Lorem ipsum dolor ...</p>
+            <button>RED MORE</button>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/1087/1087927.png">
+            </div>
+            <h1>Image</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, amet placeat sunt laudantium dolorum ratione excepturi voluptate fuga sapiente aliquam vero deleniti unde pariatur molestiae optio aliquid quis sequi quod Lorem ipsum dolor ...</p>
+            <button>RED MORE</button>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/1283/1283342.png">
+            </div>
+            <h1>Management</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, amet placeat sunt laudantium dolorum ratione excepturi voluptate fuga sapiente aliquam vero deleniti unde pariatur molestiae optio aliquid quis sequi quod Lorem ipsum dolor ...</p>
+            <button>RED MORE</button>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/3524/3524752.png">
+            </div>
+            <h1>Card</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, amet placeat sunt laudantium dolorum ratione excepturi voluptate fuga sapiente aliquam vero deleniti unde pariatur molestiae optio aliquid quis sequi quod Lorem ipsum dolor ...</p>
+            <button>RED MORE</button>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/1813/1813912.png">
+            </div>
+            <h1>Media</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, amet placeat sunt laudantium dolorum ratione excepturi voluptate fuga sapiente aliquam vero deleniti unde pariatur molestiae optio aliquid quis sequi quod Lorem ipsum dolor ...</p>
+            <button>RED MORE</button>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/1283/1283342.png">
+            </div>
+            <h1>Social</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, amet placeat sunt laudantium dolorum ratione excepturi voluptate fuga sapiente aliquam vero deleniti unde pariatur molestiae optio aliquid quis sequi quod Lorem ipsum dolor ...</p>
+            <button>RED MORE</button>
+        </div>
+      
+    </section>
+</body>
+</html>
